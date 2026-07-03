@@ -1,14 +1,14 @@
 cask "tori" do
-  version "1.4.6"
+  version "1.5.0"
 
   on_arm do
     url "https://github.com/SodiqOgundairo/homebrew-tori/releases/download/v#{version}/tori-mac-arm64.zip"
-    sha256 "56a35d2361e77b7f92cc20c7d80414d140e8764cf911cf079e42a4318506c3f7"
+    sha256 "dac8944e2dd0638769d03623a363db6adda742d50a7b975f4868a9e5485ffd65"
   end
 
   on_intel do
     url "https://github.com/SodiqOgundairo/homebrew-tori/releases/download/v#{version}/tori-mac-x64.zip"
-    sha256 "423b4216da7cbf5f406deaa67d97cee8ec3867932e2c1f735d33ab8bcc997a7b"
+    sha256 "e8834896dd062fcedfc953cc0c748a041a94447780ffc80efba662ef71aa7ea7"
   end
 
   name "Tori"
